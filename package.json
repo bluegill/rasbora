@@ -1,0 +1,19 @@
+{
+  "name": "rasbora",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Powerful Club Penguin server emulator",
+  "scripts": {
+    "start": "node ./build/Bootstrap.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "@types/node": "^9.6.0"
+  }
+}
